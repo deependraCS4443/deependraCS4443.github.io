@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+
+<!-- Autocomplete attribute and Datalist element. -->
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>Autocomplete Attribute and datalist Element</title>
+   </head>
+
+   <body>
+      <h1>Problem 3.8</h1>
+      <p> Autocomplete attribute and the datalist element. </p>
+
+      <form method = "post" autocomplete = "on">
+        
+         <p><label for = "txtList">Weekday:
+            <input type = "text" id = "txtList" 
+               placeholder = "Select a Weekday" list = "Days" />
+            <datalist id = "Days">
+                
+               <option value = "Sunday">
+               <option value = "Monday">
+               <option value = "Tuesday">
+               <option value = "Wednesday">
+               <option value = "Thursday">
+               <option value = "Friday">
+               <option value = "Saturday">
+                 
+            </datalist>
+         </label></p>
+         <p><input type = "submit" value = "Submit" />
+            <input type = "reset" value = "Clear" /></p>   
+      </form>
+   </body>
+</html>
