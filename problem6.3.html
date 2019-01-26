@@ -1,0 +1,55 @@
+<html>
+<body>
+<script type="text/javascript">
+var x,y,z;
+var noNeg=0,noPos=0,noZero=0;
+x=prompt("Enter x");
+y=prompt("Enter y");
+z=prompt("Enter z");
+
+
+if(x<0)
+{
+    noNeg++;
+}
+else if(x>0)
+{
+    noPos++;
+}
+else
+{
+    noZero++;
+}
+
+if(y<0)
+{
+    noNeg++;
+}
+else if(y>0)
+{
+    noPos++;
+}
+else
+{
+    noZero++;
+}
+if(z<0)
+{
+    noNeg++;
+}
+else if(z>0)
+{
+    noPos++;
+
+}
+else
+{
+    noZero++;
+
+}
+document.write("The number of Negative numbers are" +noNeg+ "<br>");
+document.write("The number of Positive numbers are"+noPos+ "<br>");
+document.write("The number of Zeroes are"+noZero+ "<br>");
+</script>
+</body>
+</html>
