@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <td >
+      Enter base:
+    </td>
+    <input type="text" id="text1" value="">
+    <td >
+      Enter exponent:
+    </td>
+    <input type="text" id="text2" value="">
+    <input type="button" onclick="inputValues();" value="Calculate">
+    <p id="demo"></p><br>
+ <script>
+
+    function inputValues(){
+       var base     =  parseInt(document.getElementById("text1").value);
+       var exponent =  parseInt(document.getElementById("text2").value);
+       var result;
+       result = power(base, exponent);
+       var message = base + " raised to power "+exponent+ " is " + result;
+        document.getElementById("demo").innerHTML = message;
+    }
+    function power(base, exponent){
+    
+      if(exponent == 0)
+          return 1;
+      else
+         return base * power(base, exponent-1);      
+     }
+ </script>    
+</html>
