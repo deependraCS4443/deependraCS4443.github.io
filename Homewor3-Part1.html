@@ -1,0 +1,49 @@
+<html>
+<head>
+<title>Celcious to Fahrehite and Viceversa Converstion</title>
+<script type="text/javascript">
+function getTemp()
+{
+var temp = document.getElementById('textbox').value;
+if ( isNaN(parseFloat(temp)) )
+{
+alert( "\'" + temp + "\' is not a number.\n" + "Please enter a number." );
+document.getElementById('textbox').value = "";
+temp = "x";
+}
+return( temp );
+}
+function getCelsius()
+{
+var degFahr = getTemp();
+if ( ! isNaN(degFahr) )
+{
+alert( degFahr + " Converted to Celsius is " +
+( 5.0 / 9.0 * ( degFahr - 32 ) ) );
+}
+document.getElementById('textbox').value = "";
+}
+function getFahrenheit(){
+var degCelsius = getTemp();
+if ( ! isNaN(degCelsius) )
+{
+alert( degCelsius + " Converted to Fahrenheit is " + ( ( 9.0 / 5.0 * degCelsius ) + 32 ) );
+}
+document.getElementById('textbox').value = "";
+document.getElementById('textbox').focus();
+}
+</script>
+</head>
+<body onload="javascript:document.forms[0].textbox.focus()">
+<form>
+<label align="top">Degrees to Convert:&nbsp;&nbsp;</label>
+<input class="textbox" type="text" id="textbox" name="textbox" border="1" size="5" 
+maxlength="7">
+</form>
+<button type="button" id="celsius" name="celsius" onclick="getCelsius()">Convert to Celsius</button>
+<button type="button" id="fahrenheit" name="fahrenheit" onclick="getFahrenheit()">Convert to 
+Fahrenheit</button>
+<br /><br />
+<input type="button" value="Back" onclick="javascript:history.back(1)" />
+</body>
+</html>
