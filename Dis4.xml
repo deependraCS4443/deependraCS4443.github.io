@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+
+<!-- Nutritional information XML -->
+
+ <nutrition >
+     
+ <productname>Grandma White's Cookies</productname>
+     
+ <servingsize> 1 </servingsize>
+     
+ <calories> 260 </calories>
+     
+ <fatcalories> 100 </fatcalories>
+     
+<gramsfat> 11 </gramsfat>
+     
+<gsaturatedfat> 2 </gsaturatedfat>
+     
+<mgcholesterol> 5 </mgcholesterol>
+     
+<mgsodium> 210 </mgsodium>
+     
+<gramcarbohydrates> 36 </gramcarbohydrates>
+     
+<gfiber> 2 </gfiber>
+     
+<gsugar> 15 </gsugar>
+     
+<gprotein> 5 </gprotein>
+</nutrition>
