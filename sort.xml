@@ -21,8 +21,8 @@
 
 <chapter number = "3" pages = "44">Advanced XML</chapter>
 <chapter number = "2" pages = "35">Intermediate XML</chapter>
-<appendix number = "B" pages = "26">Parsers and Tools</appendix>
-<appendix number = "A" pages = "7">Entities</appendix>
+<appendix number = "B" pages = "7">Parsers and Tools</appendix>
+<appendix number = "A" pages = "26">Entities</appendix>
 <chapter number = "1" pages = "28">XML Fundamentals</chapter>
 </chapters>
 
