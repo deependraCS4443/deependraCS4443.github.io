@@ -44,7 +44,7 @@
                </tr>
             </xsl:for-each>
 
-            <xsl:for-each select = "chapters/appendix">
+            <xsl:for-each select = "chapters/chapters">
                <xsl:sort select = "@number" data-type = "number" 
                     order = "ascending"/>                        
                <tr>
