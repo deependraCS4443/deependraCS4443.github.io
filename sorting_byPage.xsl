@@ -64,7 +64,7 @@
   </xsl:for-each>
  
   <xsl:for-each select="chapters/appendix">
-	 <xsl:sort select="@pages" data-type="text" order="ascending" /> 
+	 <xsl:sort select="@pages" data-type="number" order="ascending" /> 
    <tr>
 	   <td style="text-align: right">
 		  Appendix <xsl:value-of select="@number" /> 
