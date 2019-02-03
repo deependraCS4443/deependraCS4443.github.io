@@ -49,7 +49,7 @@
  
  
 	  <xsl:for-each select="chapters/chapter">
-		 <xsl:sort select="@pages" data-type="number" order="descending" /> 
+		 <xsl:sort select="@pages" data-type="number" order="ascending" /> 
 	  <tr>
 		 <td style="text-align: right">
 			 Chapter <xsl:value-of select="@number" /> 
