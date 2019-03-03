@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Informatics College</title>
+	<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="Keywords" content="College, Opelika, IT College, college in Alabama, IT">
+ <meta name="author" content="Deependra D">
+ <link rel="stylesheet" type="text/css" href="css/style.css">
+<script src="javascript/js.js"></script>
+<script src="javascript/validatename.js"></script>
+
+</head>
+<body class="body">
+<header class="mainheader">
+	<img src="images/logo.png">
+	<content id="search">
+		<form>
+  <input type="text" name="search" placeholder="Search anything..." onclick="window.location.href='search.html'">
+</form>
+	</content>
+<nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="course.html">Course</a></li>
+      <li><a href="download.html">Download</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="login.html">Login</a></li>
+      
+    </ul> 
+  </nav>
+</header>
+
+<iframe src="https://www.google.com/maps/embed?@32.6650699,-85.3628614,17z/data=!3m1!4b1!4m5!3m4!1s0x888c93649871ed75:0xb3638ef671630065!8m2!3d32.6650699!4d-85.3606727" width="300" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+<h3>Contact</h3> 
+<h4>Informatics College<br>
+1500 Pinehurst dr</h4>
+Opelika, Al, USA
+<pre>
+Phone : +1 334-538-1844<br>
+Email :  deependra@troy.edu<br>
+<br>
+</pre>
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<br>
+<br>
+
+<strong>If you are student please enter your student number:</strong>
+<center>
+<input id="numb">
+
+<button type="button" onclick="myFunction()">Submit</button>
+
+<p id="demo"></p>
+</center>
+<hr>
+<footer class="mainFooter">
+  <p>Copyright &copy <a href="https://www.facebook.com/Austinxyz">Deependra and Team</a> </p>
+  <center>
+  <a href="https://www.facebook.com/Austinxyz">Facebook</a>
+	<a href="https://twitter.com/Austin004_jay">Twitter</a>
+	<a href="https://www.youtube.com">Youtube</a>
+  </center>
+</footer>
+<script>
+function myFunction() {
+    var x, text;
+
+    // Get the value of the input field with id="numb"
+    x = document.getElementById("numb").value;
+
+    // If x is Not a Number or less than one or greater than 10
+    if (isNaN(x) || x < 1 || x > 1000) {
+        text = "Input not valid";
+    } else {
+        text = "Input OK";
+    }
+    document.getElementById("demo").innerHTML = text;
+}
+</script>
+
+</body>
+</html> 
+<script type="text/javascript">
+  document.title="Contact";
+</script>
+</body>
+
+</html>
